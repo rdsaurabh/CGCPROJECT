@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ page import="java.util.List,com.models.Product" %>
+    <% List<Product> productList=(List<Product>)request.getAttribute("productList"); %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%for(Product p : productList){ %>
+<div class="container">
+<h1><%=p.getName() %></h1>
+<h3>Rs.<%=p.getMrp()%></h3>
+<img src="uploaded/<%=p.getImgUrl1() %>" alt="<%=p.getImgUrl1()%>"/>
+<img src="uploaded/<%=p.getImgUrl1() %>" alt="<%=p.getImgUrl2()%>"/>
+<a href="../product-details/<%=p.getId()%>"> <i>View Details</i> </a></div>
+<%}%>
+</body>
+</html>

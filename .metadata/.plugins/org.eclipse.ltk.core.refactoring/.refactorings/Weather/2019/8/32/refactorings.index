@@ -1,0 +1,3 @@
+1565430494424	Move 'views' to 'WEB-INF'
+1565430559217	Move 'web.xml' to 'WEB-INF'
+1565430561388	Move 'dispatcher-servlet.xml' to 'WEB-INF'

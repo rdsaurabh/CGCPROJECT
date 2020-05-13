@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\eclipse ee\Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1344191664.index
+\Weather\src
+D:\eclipse ee\Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4202974992.index
+\myproject\src
+D:\eclipse ee\Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\507582684.index
+\myproject\src
